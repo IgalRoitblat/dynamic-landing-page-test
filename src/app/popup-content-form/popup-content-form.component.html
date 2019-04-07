@@ -1,0 +1,13 @@
+<div class="popup-content-form">
+	<form #form="ngForm" (ngSubmit)="onSubmit($event, form)">
+		<label *ngFor="let input of UserDataService.formStructure">
+			<span>{{ input.label }}</span>
+			<input [type]="input.type" [name]="input.name" [placeholder]="input.placeholder" ngModel>
+		</label>
+		<input type="submit">
+	</form>
+	<div class="form-submit-confirmation" *ngIf="this.formSubmitted">
+		<h3>Thanks!</h3>
+		<button  class="start-button" (click)="onFormConfirmationClose($event)">Close</button>
+	</div>
+</div>

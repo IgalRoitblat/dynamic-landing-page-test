@@ -1,0 +1,30 @@
+.navigation-section h2 {
+	color: white;
+	font-family: 'Patua One', cursive;
+	font-size: 40px;
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+}
+
+.start-button {
+	background-color: #4885ed;
+	color: white;
+	padding: 0.5rem 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+	.navigation-section h2 {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.navigation-section h2 {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.navigation-section h2 {
+		font-size: 20px;
+	}
+}

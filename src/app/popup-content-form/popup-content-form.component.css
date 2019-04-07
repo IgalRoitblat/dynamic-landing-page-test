@@ -1,0 +1,51 @@
+.popup-content-form label span {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	color: #232f3a;
+	font-family: 'Patua One', cursive;
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+}
+
+.popup-content-form label input {
+	color: #232f3a;
+	font-size: 22px;
+	width: 100%;
+}
+
+.form-submit-confirmation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	z-index: 99;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.form-submit-confirmation h3 {
+	width: 100%;
+	text-align: center;
+}
+
+.start-button {
+	background-color: #4885ed;
+	color: white;
+	padding: 0.5rem 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+	.popup-content-form label span {
+		font-size: 10px;
+	}
+
+	.popup-content-form label input {
+		font-size: 11px;
+		width: 50%;
+	}
+}
